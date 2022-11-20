@@ -98,9 +98,9 @@ header {
 input {
     height: 30px;
     width: 84%;
-    background-color: rgb(202, 219, 237);
     border: none;
     font-size: 21px;
+    background-color: rgb(202, 219, 237);
 }
 
 input::placeholder {
@@ -109,7 +109,6 @@ input::placeholder {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-weight: light;
-
 }
 
 .search_btn {

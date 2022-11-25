@@ -191,11 +191,29 @@ input::placeholder {
 
 .slide_ttl {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     color: white;
     font-size: 100px;
     font-weight: 100;
+}
+
+.next {
+    color: white;
+    background-color: #2c72b800;
+    height: 50px;
+    width: 40px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.left {
+    background-image: url(img/211689_left_arrow_icon.png);
+}
+
+.right {
+    background-image: url(img/211607_right_arrow_icon\ \(1\).png);
 }
 
 .sidebar {

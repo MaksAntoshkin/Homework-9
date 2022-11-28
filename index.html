@@ -57,12 +57,78 @@
     <main class="main">
         <div class="slide">
             <div class="container">
-                <div class="col-12 slide_ttl">Slide #3</div>
+                <div class="col-12 slide_ttl"><button class="next left"></button> Slide #3<button class="next right"></button></div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-3 sidebar">sidebar</div>
+                <div class="col-3 sidebar">
+                    <h3 class="product_char upper">Device Type</h3>
+                    <div class="row">
+                        <input type="checkbox" id="laptop">
+                        <label for="laptop"></label>
+                        <p class="prod_type">Laptop</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="tablet">
+                        <label for="tablet"></label>
+                        <p class="prod_type">Tablet</p>
+                    </div>
+                    <h3 class="product_char upper">Color</h3>
+                    <div class="row">
+                        <input type="checkbox" id="black">
+                        <label for="black"></label>
+                        <p class="prod_type">Black</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="red">
+                        <label for="red"></label>
+                        <p class="prod_type">Red</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="green">
+                        <label for="green"></label>
+                        <p class="prod_type">Green</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="blue">
+                        <label for="blue"></label>
+                        <p class="prod_type">Blue</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="orange">
+                        <label for="orange"></label>
+                        <p class="prod_type">Orange</p>
+                    </div>
+                    <h3 class="product_char upper">RAM</h3>
+                    <div class="row">
+                        <input type="checkbox" id="ram_1">
+                        <label for="ram_1"></label>
+                        <p class="prod_type">1 GB</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="ram_2">
+                        <label for="ram_2"></label>
+                        <p class="prod_type">2 GB</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="ram_3">
+                        <label for="ram_3"></label>
+                        <p class="prod_type">4 GB</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="ram_4">
+                        <label for="ram_4"></label>
+                        <p class="prod_type">6 GB</p>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="ram_5">
+                        <label for="ram_5"></label>
+                        <p class="prod_type">8 GB</p>
+                    </div>
+                    <p class="more_side"><a class="prod_type" href="#">Show more options...</a></p>
+                    <button class="details">Submit</button>
+                </div>
                 <div class="col-9">
                     <div class="navigation"><a class="navigation" href="#">Home page</a>  > <a class="navigation" href="#">Products</a>  > <a class="navigation act" href="#">Laptops and Tablets</a>
                     </div>
@@ -87,12 +153,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#1 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$599<span class="cents"> 25</span></div>
+                                <h2 class="product_ttl">#1 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$599<span class="cents"> 25</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart <img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -103,12 +169,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h active_h"><img src="img/icon (7).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#2 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$1250<span class="cents"> 99</span></div>
+                                <h2 class="product_ttl">#2 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$1250<span class="cents"> 99</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart<img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -119,12 +185,12 @@
                                     <button class="icon active"><img src="img/icon (6).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#3 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$399<span class="cents"> 50</span></div>
+                                <h2 class="product_ttl">#3 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$399<span class="cents"> 50</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart<img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -137,12 +203,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#1 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$599<span class="cents"> 25</span></div>
+                                <h2 class="product_ttl">#1 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$599<span class="cents"> 25</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart <img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -153,12 +219,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#2 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$1250<span class="cents"> 99</span></div>
+                                <h2 class="product_ttl">#2 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$1250<span class="cents"> 99</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart<img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -169,12 +235,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#3 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">399<span class="cents"> 50</span></div>
+                                <h2 class="product_ttl">#3 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">399<span class="cents"> 50</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart<img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -187,12 +253,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#1 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$599<span class="cents"> 25</span></div>
+                                <h2 class="product_ttl">#1 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$599<span class="cents"> 25</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart <img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -203,12 +269,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#2 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$1250<span class="cents"> 99</span></div>
+                                <h2 class="product_ttl">#2 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$1250<span class="cents"> 99</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart<img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -219,12 +285,12 @@
                                     <button class="icon"><img src="img/icon (8).png" alt=""></button>
                                     <button class="icon_h"><img src="img/icon (5).png" alt=""></button>
                                 </div>
-                                <div class="product_ttl">#3 Device name</div>
-                                <div class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                                <div class="product_char">Type<span class="char"> Laptop</span></div>
-                                <div class="product_char">Screen size<span class="char"> 7 inches</span></div>
-                                <div class="product_char">RAM<span class="char"> 1 GB</span></div>
-                                <div class="price">$399<span class="cents"> 50</span></div>
+                                <h2 class="product_ttl">#3 Device name</h2>
+                                <p class="product_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3 class="product_char">Type:<span class="char"> Laptop</span></h3>
+                                <h3 class="product_char">Screen size:<span class="char"> 7 inches</span></h3>
+                                <h3 class="product_char">RAM:<span class="char"> 1 GB</span></h3>
+                                <h4 class="price">$399<span class="cents"> 50</span></h4>
                                 <button class="details">More details</button>
                                 <button class="buy">Add to cart<img class="bucket_add" src="img/icon (2).png" alt=""></button>
                             </div>
@@ -236,6 +302,14 @@
         </div>
         </div>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="foot">&copy; Copyright2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

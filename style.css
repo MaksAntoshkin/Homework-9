@@ -65,7 +65,15 @@ header {
 
 .menu li {
     width: 25%;
-    border-left: 1px #2c71b8 solid;
+}
+
+.menu li .arrow {
+    display: inline-block;
+    border: #2c71b8 solid;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    rotate: 45deg;
+    margin: 5px 10px;
 }
 
 .menu li:last-child {
@@ -80,6 +88,7 @@ header {
     text-decoration: none;
     color: #2c71b8;
     font-size: 21px;
+    border-left: 1px #2c71b8 solid;
 }
 
 .menu li:hover a {
@@ -216,10 +225,19 @@ input::placeholder {
     background-image: url(img/211607_right_arrow_icon\ \(1\).png);
 }
 
-
 .sidebar {
     height: 950px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.upper {
+    text-transform: uppercase;
+    margin-left: -5px;
+    margin-top: 60px;
+}
+
+.upper:first-child {
+    margin-top: 20px;
 }
 
 input[type="checkbox"] {
@@ -237,26 +255,16 @@ label::before {
     margin-top: 30px;
 }
 
-input:checked + label::before {
+input[type="checkbox"]:checked + label::before {
     background-color: white;
 }
 
-.upper {
-    text-transform: uppercase;
-    margin-top: 60px;
-    margin-left: -5px;
-}
-
-.upper:first-child{
-    margin-top: 20px;
-}
-
-.prod_type {
+.prod_name {
     color: white;
     font-size: 21px;
     font-weight: lighter;
-    margin-top: 25px;
     margin-left: 10px;
+    margin-top: 25px;
     text-decoration: none;
 }
 
@@ -334,7 +342,7 @@ input:checked + label::before {
 }
 
 .desktop {
-    background-image: url(img/desktop.png);
+    background-image: url(img/icon\ \(17\).png);
 }
 
 .tv {

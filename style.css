@@ -382,7 +382,9 @@ input[type="checkbox"]:checked + label::before {
 .icon {
     height: 30px;
     width: 30px;
-    padding: 4px;
+    background-image: url(img/icon\ \(8\).png);
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 5px;
     border: 1px #2c71b8 solid;
     cursor: pointer;
@@ -391,22 +393,24 @@ input[type="checkbox"]:checked + label::before {
 .icon_h {
     height: 30px;
     width: 30px;
-    padding: 5px;
+    background-image: url(img/icon\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 5px;
     border: 1px #2c71b8 solid;
     cursor: pointer;
 }
 
-.active {
+.icon:focus {
     border: none;
     background-color: #2c71b8;
-    padding: 5px;
+    background-image: url(img/icon\ \(6\).png);
 }
 
-.active_h {
+.icon_h:focus {
     border: none;
     background-color: #2c71b8;
-    padding: 6px;
+    background-image: url(img/icon\ \(7\).png);
 }
 
 .product_ttl {

@@ -119,7 +119,7 @@ header {
     padding: 3px;
 }
 
-input {
+.search_inp {
     height: 30px;
     width: 84%;
     border: none;
@@ -573,4 +573,59 @@ input[type="checkbox"]:checked + label::before {
     color: #2c71b8;
     font-size: 21px;
     font-weight: lighter;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-block {
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 100px auto;
+}
+
+.call_form {
+    position: relative;
+    padding-top: 30px;
+}
+
+.call_form h3 {
+    margin-bottom: 15px;
+}
+
+.form_field {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form_field input {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #e2e2e2;
+    color: gray;
+}
+
+.btn_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }

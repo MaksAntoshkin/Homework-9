@@ -1,10 +1,38 @@
-// function showModalByScroll() {
-//     if (window.scrollY >= document.body.scrollHeight / 2) {
-//         openModal();
-//     }
-// }
+let productsCountEl = document.querySelector(".basket-badge");
+let addToCartBtns = document.querySelector(".buy");
 
-// window.addEventListener("scroll", showModalByScroll);
+// addToCartBtns.forEach((item) => 
+//     item.addEventListener("click", function () {
+//         console.log("clicked");
+//     })
+// );
+
+let modal = document.querySelector(".modal")
+let moreDetailsBtns = document.querySelectorAll(".details")
+let closeBtn = document.querySelector(".btn_close")
+
+moreDetailsBtns.forEach((item) =>
+item.addEventListener("click", openModal));
+
+closeBtn.addEventListener("click", closeModal);
+
+function openModal () {
+    modal.classList.add("show")
+    modal.classList.remove("hide")
+}
+
+function closeModal () {
+    modal.classList.add("hide")
+    modal.classList.remove("show")
+}
+
+function showModalByScroll() {
+    if (window.scrollY >= document.body.scrollHeight / 2) {
+        openModal();
+    }
+}
+
+window.addEventListener("scroll", showModalByScroll);
 
 let likeBtns = document.querySelectorAll(".icon_h");
 likeBtns.forEach((item) =>

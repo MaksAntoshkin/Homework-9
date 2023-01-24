@@ -8,7 +8,7 @@ let addToCartBtns = document.querySelector(".buy");
 // );
 
 let modal = document.querySelector(".modal")
-let moreDetailsBtns = document.querySelectorAll(".details")
+let moreDetailsBtns = document.querySelectorAll(".more-det")
 let closeBtn = document.querySelector(".btn_close")
 
 moreDetailsBtns.forEach((item) =>

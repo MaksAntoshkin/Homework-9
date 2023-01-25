@@ -301,6 +301,15 @@ input[type="checkbox"] {
     display: none;
 }
 
+label {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    color: white;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
 label::before {
     content: "";
     display: block;

@@ -1,11 +1,19 @@
-let productsCountEl = document.querySelector(".basket-badge");
-let addToCartBtns = document.querySelector(".buy");
+let productCountEl = document.querySelector(".circle");
+let addToCartBtns = document.querySelectorAll(".buy");
 
-// addToCartBtns.forEach((item) => 
-//     item.addEventListener("click", function () {
-//         console.log("clicked");
+addToCartBtns.forEach((item) => 
+    item.addEventListener("click", function () {
+        let prevProductCount = +productCountEl.textContent;
+        productCountEl.textContent = prevProductCount + 1;
+    })
+);
+
+// for (let i=0; i<addToCartBtns.length; i++) {
+//     addToCartBtns[i].addEventListener("click", function () {
+//         let prevProductCount = +productCountEl.textContent;
+//         productCountEl.textContent = prevProductCount + 1;
 //     })
-// );
+// }
 
 let modal = document.querySelector(".modal")
 let moreDetailsBtns = document.querySelectorAll(".more-det")
@@ -45,6 +53,8 @@ likeBtns.forEach((item) =>
         item.classList.toggle("liked")
     })
 );
+
+
 
 $(".slider").slick({
     autoplay: true,

@@ -555,6 +555,29 @@ input[type="checkbox"]:checked + label::before {
     cursor: pointer;
 }
 
+.product_quan {
+    margin: 5px 80px;
+}
+
+.product_quan input {
+    background: initial;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    width: 40px;
+}
+
+.inc_btn {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dec_btn {
+    font-size: 15px;
+    cursor: pointer;
+}
+
 .bucket_add {
     margin-left: 10px;
 }
